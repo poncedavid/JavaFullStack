@@ -1,0 +1,27 @@
+body{
+
+    background-color: green;
+
+}
+
+.contenedor{
+
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    margin: 10px;
+    border: 3px solid pink;
+padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+
+.azul{
+    background-color: blue;
+}
