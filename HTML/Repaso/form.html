@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h1>Contactame</h1>
+
+<form action="./registrado.html" method="post">
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required>
+    </div>
+    <br>
+    <div>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" required>
+    </div>
+    <br>
+    <div>
+        <label for="correo">Correo</label>
+        <input type="email" required>
+    </div>
+    <br>
+    <div>
+        <label for="contraseña">Contraseña</label>
+        <input type="password">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero">
+        <label for="binario">No-Binario</label>
+        <input type="radio" id="binario" name="genero">
+    </div>
+    <br>
+    <div>
+        <select name="deporte">
+            <option value="futbol">Futbol</option>
+            <option value="padel">Padel</option>
+            <option value="ajedrez">Ajedrez</option>
+        </select>
+    </div>
+
+    <br>
+    <div>
+        <label for="azul">Azul</label>
+        <input type="checkbox" name="color" id="azul">
+
+        <label for="verde">Verde</label>
+        <input type="checkbox" name="color" id="verde">
+
+
+        <label for="rojo">Rojo</label>
+        <input type="checkbox" name="color" id="rojo">
+
+        <label for="negro">Negro</label>
+        <input type="checkbox" name="color" id="negro">
+    </div>
+    <br>
+    <div>
+
+        <label for="comentario">Deja un cometatio</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="Enviar Formulario">
+    </div>
+
+
+
+
+
+
+
+
+</form>
+
+
+</body>
+
+</html>
