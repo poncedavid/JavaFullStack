@@ -1,0 +1,19 @@
+body{
+    background-color: coral;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: green;
+}
+
+p{
+    color: yellow;
+}
+
+h1,h3{
+    text-align: center;
+}
