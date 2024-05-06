@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
 </head>
+
 <body>
-    <h3>¡Estas Registrado!</h3>
+    <h1>¡Mi formulario</h1>
+
+    <form action="./logeado.html" method="post">
+
+        <div>
+            <label for="a">Nombre:</label>
+            <input type="text" name="nombre" id="a" required>
+        </div>
+
+        <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div>
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="constraseña" id="contraseña" required>
+        </div>
+
+        <div>
+            <label for="contraseña2">Confirmar contraseña:</label>
+            <input type="password" name="" contraseña2 id="contraseña2" required>
+        </div>
+
+        <div>
+            <label for="cumpleaños">Cumpleaños</label>
+            <input type="date" name="cumpleaños" id="cumpleaños" required>
+        </div>
+
+        <div>
+            <label for="hombre">Hombre</label>
+            <input type="radio" name="genero" id="hombre">
+
+            <label for="mujer">Mujer</label>
+            <input type="radio" name="genero" id="mujer">
+
+            <label for="na">No aplica</label>
+            <input type="radio" name="genero" id="na">
+        </div>
+
+        <div>
+            <div>
+                <label for="descripción">Una breve descripción de ti:</label>
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <label for="lenguaje">Lenguaje favorito:</label>
+            <select name="lenguajes" id="lenguajes">
+                <option value="">Javascript</option>
+                <option value="">Python</option>
+                <option value="">Java</option>
+            </select>
+        </div>
+
+
+
+
+        <input type="submit" name="" id="">
+
+    </form>
+
+
+
+
 </body>
+
 </html>
