@@ -1,0 +1,24 @@
+h2{
+    color: rgb(28, 151, 170);
+    text-align: center;
+    background-color: silver;
+}
+
+
+.parrafo-clase{
+
+    background-color: black;
+    color: white;
+}
+
+.fondo-rojo{
+    background-color: red;
+}
+
+.letra-azul{
+    color: blue;
+}
+
+#parrafo-id{
+    background-color: green;
+}
