@@ -1,0 +1,112 @@
+body{
+    background-color: silver;
+}
+
+
+/* SIMPRE LAS CLASES INICIAN CON UN PUNTO */
+
+
+.encabezado{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.encabezado:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.bg-rojo{
+    background-color: red;
+}
+
+
+.letra-blanca{
+    color: white;
+}
+
+.centra-texto{
+    text-align: center;
+}
+
+
+.contenido{
+
+    width: 100%;
+    height: 300px;
+    background-color: green;
+
+    /* APLICANDO FLEX */
+
+    display: flex;
+
+
+    /* REPRESENTA EL EJE X (HORIZONTE) */
+    justify-content: space-around;
+
+
+
+
+    /* REPRESENTA EL EJE Y (VERTICAL) */
+    align-items: center;
+}
+
+.icono{
+    width: 200px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+li:hover{
+    background-color: white;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.tabla{
+    background-color: rgb(0, 0, 0);
+    outline: 1px solid black;
+}
+
+tr{
+    background-color: silver;
+}
+
+th{
+    background-color: yellow;
+    padding: 10px;
+    color: rgb(8, 22, 207);
+}
+
+p{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+
+p:hover{
+    background-color: black;
+    color: red;
+    width: 500px;
+    height: 500px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

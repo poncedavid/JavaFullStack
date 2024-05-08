@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+li:hover{
+    background-color: white;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
