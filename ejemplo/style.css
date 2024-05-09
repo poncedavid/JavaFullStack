@@ -1,0 +1,59 @@
+/* FORMATEANDO EL CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.titulo-sup{
+    /* AGREGANDO FONDO DE COLOR */
+    background-color: black;
+
+    /* MODIFICANDO EL COLOR DE LETRA */
+    color: white;
+
+    /* FAMILIA DE LETRA */
+    font-family: sans-serif;
+}
+.aqua{
+    color: aqua;
+}
+
+
+/* AGREGANDO MARGEN */
+
+.margen{
+    margin: 10px;
+}
+
+
+.titulo-med{
+
+    background-color: blueviolet;
+    color: white;
+    /* CENTRANDO TEXTO */
+    text-align: center;
+
+    /* AGREGANDO CURSIVA */
+    font-style: italic;
+
+}
+
+.titulo-inf{
+    background-color: rgba(30, 143, 255, 0.474);
+    text-align: end;
+    text-decoration: underline;
+    padding: 7px;
+}
+
+.relleno-izq{
+    padding-left: 30px;
+}
+
+
+.relleno-der{
+    padding-right: 30px;
+}

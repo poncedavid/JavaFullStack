@@ -1,0 +1,9 @@
+.cursiva{
+    font-style: italic;
+    background-color: silver;
+}
+
+.negrita{
+    font-weight: bold;
+    background-color: red;
+}
