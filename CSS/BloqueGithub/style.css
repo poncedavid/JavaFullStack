@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+}
+
+
+
+.titulo{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.contenido{
+
+    /* CENTRANDO TODO EL CONTEN */
+    width: 800px;
+    margin: 0 auto;
+
+    background-color: silver;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.icono{
+    width: 200px;
+}
+
+.row{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.pink{
+    background-color: lightpink;
+    justify-content: space-evenly;
+}
+
+.blue{
+    background-color:cyan;
+}
+
+.withe{
+    background-color: white;
+}

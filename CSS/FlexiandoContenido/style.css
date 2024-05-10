@@ -1,0 +1,42 @@
+body{
+    background-image: url(images/estrellas.jpeg);
+}
+
+
+.icono{
+    width: 200px;
+}
+
+.sup{
+    width: 100%;
+    height: 250px;
+    background-color: red;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+
+.med{
+    width: 100%;
+    height: 250px;
+    background-color: sienna;
+
+    display: flex;
+    align-items: start;
+
+    justify-content: flex-end;
+}
+
+.inf{
+    width: 100%;
+    height: 250px;
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
