@@ -1,0 +1,38 @@
+header img{
+    width: 80px;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icono{
+    width: 200px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+
+.row{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+
+.contenido{
+    background-color: #d4d1ae;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.314);
+}
+
+.blue{
+    background-color: rgba(52, 52, 229, 0.471);
+}
