@@ -1,9 +1,97 @@
-.cursiva{
-    font-style: italic;
-    background-color: silver;
+* {
+  /* FORMATEANDO PÁGIMA */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* AJUSTANDO EL TIPO DE LETRA */
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: silver;
 }
 
-.negrita{
-    font-weight: bold;
-    background-color: red;
+.titulo {
+  /*CAMBIANDO COLO DE LETRA  */
+  color: rgb(66, 75, 51);
+
+  /* MODIFICANDO EL COLOR DEL FONDO */
+  background-color: black;
+
+  /* ALINEAR EL TEXTO */
+  text-align: center;
+
+  /* TAMAÑO DE TEXTO */
+  font-size: 45px;
+
+  /* TEXTO EN CURSIVA */
+  font-style: italic;
+
+  /* TEXTO EN NEGRITA */
+  font-weight: bold;
+
+  /* DECORANDO EL TEXTO */
+  text-decoration: underline;
+}
+
+.titulo:hover {
+  /* CAMBIANDO EL COLOR DE LETRA */
+  color: rgb(0, 0, 0);
+
+  /* CAMBIANDO EL COLOR DE FONDO */
+  background-color: rgb(66, 75, 51);
+
+  /* DECORANDO EL TEXTO */
+  text-decoration: line-through;
+
+  /* TEXTO EN CURSIVA */
+  font-style: normal;
+
+  /* TEXTO EN NEGRITA */
+  font-weight: lighter;
+}
+
+.contenido {
+  width: 100%;
+  height: 250px;
+  background-color: slategray;
+
+  /* AGRENADO BORDE A LA ETIQUETA */
+  border-top: 5px dotted rgb(66, 75, 51);
+  border-bottom: 5px solid rgb(66, 75, 51);
+
+  /* AGREGANDO MARGENES */
+  /* margin-top: 30px; */
+
+  /* AGREGANDO RELLENO */
+
+  padding: 90px;
+}
+
+.flex {
+  height: 50px;
+  display: flex;
+  /* ALINEAR DE ARRIBA ABAJO (Eje Y) */
+  align-items: center;
+
+  /* ALINEAR DE IZQ. DERE (EJE x) */
+
+  justify-content: space-around;
+}
+
+.flex li {
+  list-style: none;
+}
+
+.flex li a {
+  text-decoration: none;
+  color: rgb(66, 75, 51);
+  cursor: crosshair;
+}
+
+.buscar {
+  border-radius: 25px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  box-shadow: 5px 5px 100px rgb(0, 255, 225);
 }
