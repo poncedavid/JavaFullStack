@@ -33,21 +33,24 @@
 
     display: inline-block;
     margin-left: 15px;
+    padding: 15px;
    }
    .subcontents{
     min-height: 200px;
     width: 210px;
     background-color: yellow;
-    
 
+    margin-left: 15px;
     display: inline-block;
-    margin-right: 15px;
    }
    #advertisement{
     min-height: 120px;
-    width: 660px;
+    width: 670px;
     background-color: purple;
-    margin: 15px   ;
+
+    margin-top: 15px;
+
+    margin-left: 15px;
    }
    
    
