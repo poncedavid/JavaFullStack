@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #255076;
+    color: ;
+    
+}
+
+.titulo-pagina{
+    height: 90px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #255076;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 300px;
+
+}
+
+.buscador{
+    background-color: rgb(94, 94, 94);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 3px black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.buscador input{
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.buscador button{
+    background-color: #255076;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navegacion{
+
+    background-color: #497fad;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 900px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 4px;
+
+}
+
+.navegacion ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.col,.col-2,.col-3{
+
+    padding: 10px;
+
+    flex: 1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+.principal{
+    margin-top: 5px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    color: white;
+}
+
+
+.principal ul li{
+    
+    text-align: center;
+    list-style: none;
+    color: yellow;
+    font-style: italic;
+    padding: 1;
+}
+
+.principal ul li a{
+
+    color: white;
+}
+
+.mas-info{
+
+
+    background-color: rgb(164, 164, 164);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #255076;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+}
+
