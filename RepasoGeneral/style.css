@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+
+    background-color: silver;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.col-1,.col-2,.col-3,.col-5,.col-7{
+    flex: 1;
+    padding: 10px;
+    background-color: cyan;
+}
+
+.col-2{
+    flex: 2;
+    background-color: yellow;
+}
+
+.col-3{
+    background-color: red;
+    flex: 3;
+}
+
+.col-5{
+    flex: 5;
+}
+
+.col-7{
+    flex: 7;
+    background-color: green;
+}
