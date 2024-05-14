@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background: white;
+}
+
+footer{
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+footer ul{
+    display: flex;
+}
+
+footer p{
+    margin-left: 25px;
+}
+.navegacion{
+    width: 1000px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+ul li img{
+    padding: 10px;
+}
+
+.descargar{
+    width: 100px;
+    height: 35px;
+    background-color: blueviolet;
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    margin-left: 25px;
+}
+
+
+.col-1,.col-2,.col-3{
+
+    flex: 1;
+    padding: 10px;
+
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-content: start;
+}
+
+.extras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pie-pagina{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.col-1 h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.col-1 p{
+    color: rgb(101, 95, 95);
+    padding: 20px;
+}
+
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.botones button{
+    margin-left: 5px;
+    margin-right: 5px;
+
+    width: 150px;
+    height: 45px;
+
+    background-color: white;
+    color: blueviolet;
+
+    border: 1px solid blueviolet;
+
+    border-radius: 7px;
+}
+
+
+.descarga{
+    border: 2px silver solid !important;
+    color: silver !important;
+}
+
+.anuncios{
+
+    width: 350px;
+    background-color: rgb(217, 215, 215);
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    border-radius: 4px;
+
+}
+
+.col-1 h2{
+    margin-left: 20px;
+}
+
+.codigos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.btn-extra{
+    background-color: white;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    color:cadetblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.pie-pagina a{
+    margin: 10px;
+    color: black;
+}

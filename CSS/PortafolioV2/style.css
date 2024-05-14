@@ -90,3 +90,9 @@ main{
     align-items: center;
     justify-content: space-around;
 }
+
+.secciones{
+    height: 300px;
+
+    overflow: scroll;
+}
