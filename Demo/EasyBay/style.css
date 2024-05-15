@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: silver;
+}
+
+.navegacion{
+
+    /* DIMENSIONES */
+    width: 780px;
+    height: 60px;
+    /* PARA CENTRAR EN PANTALLA */
+    margin: 0 auto;
+
+    /* COLORES */
+    background-color: white;
+
+    /* FLEXIONAR */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buscar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.logo{
+    margin-left: 10px;
+    height: 40px;
+    background-color: #43D1B3;
+}
+
+.logo-buscar{
+    height: 25px;
+}
+
+.input-buscar{
+    height: 25px;
+    width: 200px;
+    border: none;
+    text-align: start;
+
+    border-radius: 25px;
+}
+
+
+.titulo-nav{
+    font-size: 35px;
+}
+
+.inicio-nav{
+    font-size: 15px;
+}
+
+.carro{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-titulo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

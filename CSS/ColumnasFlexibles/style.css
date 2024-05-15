@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: silver;
+}
+
+/* CONFIGURANDO COLUMNAS */
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    padding: 10px;
+    background-color: cyan;
+}
+.col-2{
+    flex: 2;
+    background-color: yellow;
+}
+.col-3{
+    flex: 3;
+    background-color: red;
+}
+
+/* CONFIGURANDO LAS FILAS  */
+.row{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.seccion{
+    display: flex;
+}
