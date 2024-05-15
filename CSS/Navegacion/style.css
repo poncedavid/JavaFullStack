@@ -1,0 +1,95 @@
+.navegacion-uno{
+
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+
+.flexionando{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexionando li{
+    margin: 10px;
+}
+
+
+.fila{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fila li{
+    margin: 10px;
+}
+
+.fila a{
+    color: white;
+}
+
+
+.nav-dos{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-dos ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-dos li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

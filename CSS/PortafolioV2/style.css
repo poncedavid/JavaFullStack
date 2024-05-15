@@ -81,7 +81,7 @@ main{
 .logos{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 
@@ -92,7 +92,7 @@ main{
 }
 
 .secciones{
+    
     height: 300px;
-
     overflow: scroll;
 }

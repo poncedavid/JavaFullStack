@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 970px;
+  margin: 0 auto;
+  background-color: #245176;
+}
+
+body{
+  background-color: silver;
+}
+footer{
+  width: 970px;
+  margin: 0 auto;
+  background-color: #245176;  
+}
+
+.logo {
+  width: 300px;
+}
+
+.encabezado {
+  width: 970px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #245176;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buscar {
+  background-color: #444444;
+  height: 50px;
+  width: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+}
+
+.buscar button {
+  background-color: #245176;
+  color: white;
+  height: 30px;
+  width: 40px;
+  font-size: 10px;
+  margin-left: 4px;
+  border: 2px silver solid;
+  border-style: outset;
+  border-radius: 3px;
+}
+
+.buscar input {
+  text-align: center;
+  height: 30px;
+}
+
+.navegacion {
+  width: 750px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #3b78ad;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navegacion ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navegacion ul li:hover {
+  
+  background-color: white;
+  border-radius: 5px;
+}
+
+
+.navegacion a:hover{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.navegacion a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* CREACION DE COLUMNAS */
+.col-1,
+.col-2,
+.col-3{
+
+  flex: 1;
+  padding: 10px;
+
+}
+
+.col-2{
+  flex: 2;
+}
+
+.col-3{
+  flex: 3;
+}
+
+.informacion{
+  margin-top: 10px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.sin-puntos{
+  list-style: none;
+}
+
+.sin-puntos a{
+  color: white;
+}
+
+.sin-puntos li{
+  color: yellow;
+  padding: 4px;
+  font-style: italic;
+}
+
+
+.parrafo{
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.sub-titulo{
+  margin-top: 10px;
+  color: white;
+}
+
+.extras{
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.listas-extras{
+  list-style: none;
+}
+
+
+.text-center h4{
+  margin-bottom: 10px;
+}
+
+.text-center p{
+  margin-bottom: 10px;
+}
+
+
+
+.pie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pie-ayuda{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.pie-ayuda p{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 0.432);
+  padding: 20px;
+}
+
+
+.pie-copy{
+  color: rgba(255, 255, 255, 0.579);
+  font-size: 10px;
+  padding: 10px
+}
