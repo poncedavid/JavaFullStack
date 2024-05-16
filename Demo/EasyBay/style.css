@@ -1,76 +1,258 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: silver;
+body {
+  background-color: silver;
+}
+main {
+  width: 780px;
+  margin: 0 auto;
+
+  background-color: white;
 }
 
-.navegacion{
+.navegacion {
+  /* DIMENSIONES */
+  width: 780px;
+  height: 60px;
+  /* PARA CENTRAR EN PANTALLA */
+  margin: 0 auto;
 
-    /* DIMENSIONES */
-    width: 780px;
-    height: 60px;
-    /* PARA CENTRAR EN PANTALLA */
-    margin: 0 auto;
+  /* COLORES */
+  background-color: white;
 
-    /* COLORES */
-    background-color: white;
+  /* FLEXIONAR */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
-    /* FLEXIONAR */
+.buscar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.logo {
+  margin-left: 10px;
+  height: 40px;
+  background-color: #43d1b3;
+}
+
+.logo-buscar {
+  height: 25px;
+}
+
+.input-buscar {
+  height: 25px;
+  width: 200px;
+  border: none;
+  text-align: start;
+
+  border-radius: 25px;
+}
+
+.titulo-nav {
+  font-size: 35px;
+}
+
+.titulo-nav:hover {
+  color: #43d1b3;
+  text-decoration: underline;
+  cursor: progress;
+}
+
+.inicio-nav {
+  font-size: 15px;
+}
+
+.inicio-nav:hover {
+  color: #43d1b3;
+  cursor: no-drop;
+}
+
+.carro {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.carro:hover {
+  background-color: #43d1b3;
+  border-radius: 50%;
+  cursor: alias;
+}
+
+.logo-titulo {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.enlaces {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 3px solid black;
+  width: 750px;
+  margin: 0 auto;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.enlaces a:hover {
+  color: #43d1b3;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  flex: 1;
+  margin: 5px;
+
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.col-3 {
+  flex: 3;
+}
+
+.col-4 {
+  flex: 4;
+}
+
+.titulo-principal {
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.contenido {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+
+.flecha {
+  width: 30px;
+}
+
+.suculenta {
+  width: 250px;
+}
+
+.izquierdo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43d1b3;
+}
+
+.contenido-derecha {
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-weight: lighter;
+
+  background-color: #43d1b3;
+  margin-top: 10px;
+
+  height: 60px;
+  padding-left: 30px;
+}
+
+.contenido-izquierda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  color: white;
+  text-decoration: no;
+}
+
+.contenido-izquierda p{
+    font-size: 20px;
+
+}
+
+.derecha-extra {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.derecha-extra a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.plantas{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #43d1b3;
 }
 
-.buscar{
+.icono-plantas{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.flex-columna{
     display: flex;
     align-items: center;
     justify-content: center;
-
-    border: 1px solid black;
-    border-radius: 25px;
-    padding: 5px;
+    flex-direction: column;
+    padding: 10px;
 }
 
-.logo{
-    margin-left: 10px;
-    height: 40px;
-    background-color: #43D1B3;
-}
+.cookies{
 
-.logo-buscar{
-    height: 25px;
-}
-
-.input-buscar{
-    height: 25px;
-    width: 200px;
-    border: none;
-    text-align: start;
-
-    border-radius: 25px;
-}
-
-
-.titulo-nav{
-    font-size: 35px;
-}
-
-.inicio-nav{
-    font-size: 15px;
-}
-
-.carro{
-    height: 40px;
-    margin-right: 10px;
-}
-
-.logo-titulo{
-    width: 200px;
+    width: 820px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 2px 2px 4px black;
+}
+
+.cookies button{
+    width: 100px;
+    margin-right: 8px;
+    background-color: #43d1b3;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    border: 3px solid black;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
