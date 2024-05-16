@@ -1,51 +1,29 @@
+
+//PARA EMITIR UN ALERTA
 function compra(){
     alert("Esta haciendo click en el carro! 😌")
 }
 
-
+//PARA OCULTAR ELEMENTOS
 function esconder(elemto){
     elemto.remove();
 }
 
 
-function cambiarImgen(){
-
-}
-
-
-
-function sumaDosNumeros(numero1,numero2){
-    suma = numero1 + numero2;
-    return suma
-}
-
-
-function multiplicaTresNumeros(a,b,c){
-    resultado = a*b*c;
-    return resultado
-}
-
-
-
-let resultadoSuma = sumaDosNumeros(10,5)
-
-var resultadoMultiplicacion = multiplicaTresNumeros(100,65,90)
-
-console.log(resultadoMultiplicacion)
-
-
 
 
 //PARA CAMBIAR LA IMAGEM
-
-var suculenta = document.getElementById("suculenta")
+var imagen = document.getElementById("suculenta")
 
 
 function cambiarImagen(){
 
-    if(suculenta.src == "imagenes/succulents-2.jpg"){
-        suculenta.src = "imagenes/succulents-1.jpg"
-    }else{
-        suculenta.src = "imagenes/succulents-2.jpg"
-    }
+
+
+        // Verifica si la imagen actual es 'succulents-2.jpg', si es así cambia a 'succulents-1.jpg', si no, cambia a 'succulents-2.jpg'.
+        if (imagen.src.includes("succulents-2.jpg")) {
+            imagen.src = "imagenes/succulents-1.jpg";
+        } else {
+            imagen.src = "imagenes/succulents-2.jpg";
+        }
 }
