@@ -237,6 +237,7 @@ main {
 
     width: 820px;
     margin: 0 auto;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
