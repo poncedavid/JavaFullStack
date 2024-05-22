@@ -1,0 +1,115 @@
+/*CSS reset settings here*/
+/* Restablece los márgenes y rellenos a 0, y establece el modelo de caja a border-box para todos los elementos */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Clase para filas, añade un margen de 20px alrededor */
+.row {
+    margin: 20px;
+}
+
+/* Clase para columnas, las hace inline-block y las alinea verticalmente al tope, con un margen horizontal de 10px */
+.col {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px;
+}
+
+/* Media query para pantallas con un ancho máximo de 480px */
+@media only screen and (max-width: 480px){
+    /* Oculta elementos con la clase .sm-0 */
+    .sm-0 {
+        display: none;
+    }
+    /* Hace que los elementos con la clase .sm-4 ocupen el 100% del ancho */
+    .sm-4 {
+        width: 100%;
+    }
+}
+
+/* Media query para pantallas con un ancho mínimo de 481px */
+@media only screen and (min-width: 481px){
+    /* Oculta elementos con la clase .med-0 */
+    .med-0 {
+        display: none;
+    }
+    /* Hace que los elementos con la clase .med-2 ocupen el 45% del ancho */
+    .med-2 {
+        width: 45%;
+    }
+    /* Hace que los elementos con la clase .med-4 ocupen el 100% del ancho */
+    .med-4 {
+        width: 100%;
+    }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1024px */
+@media only screen and (min-width: 1024px){
+    /* Hace que los elementos con la clase .lg-1 ocupen el 23% del ancho y se muestren como inline-block */
+    .lg-1 {
+        width: 23%;
+        display: inline-block;
+    }
+    /* Hace que los elementos con la clase .lg-one-third ocupen el 31% del ancho */
+    .lg-one-third {
+        width: 31%;
+    }
+    /* Hace que los elementos con la clase .lg-3 ocupen el 72% del ancho */
+    .lg-3 {
+        width: 72%;
+    }
+    /* Hace que los elementos con la clase .lg-4 ocupen el 100% del ancho */
+    .lg-4 {
+        width: 100%;
+    }
+}
+
+/* Estilos para el elemento con id #wrapper */
+/* Define un contenedor centralizado de 950px de ancho, con fondo plateado, márgenes automáticos y relleno de 20px */
+#wrapper{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+/* Estilos para el elemento con id #header */
+/* Define un encabezado con altura de 150px y fondo verde */
+#header{
+    height: 150px;
+    background-color: green;
+}
+
+/* Estilos para el elemento con id #navigation */
+/* Define una sección de navegación con altura de 300px y fondo azul */
+#navigation{
+    height: 300px;
+    background-color: blue;
+}
+
+/* Estilos para el elemento con id #main_content */
+/* Define la sección principal de contenido con fondo rojo y relleno de 12px */
+#main_content{
+    background-color: red;
+    padding: 12px;
+}
+
+/* Estilos para elementos con la clase .subcontents */
+/* Define subcontenidos con altura de 200px, fondo amarillo, margen derecho de 10px y margen inferior de 10px */
+.subcontents{
+    height: 200px;
+    background-color: yellow;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el elemento con id #advertisement */
+/* Define una sección de publicidad con altura de 120px, fondo púrpura y margen superior de 20px */
+#advertisement{
+    height: 120px;
+    background-color: purple;
+    margin-top: 20px;
+}

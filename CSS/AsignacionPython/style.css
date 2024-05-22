@@ -126,6 +126,9 @@ footer{
   display: flex;
   align-items: start;
   justify-content: center;
+
+  width: 750px;
+  margin: 0 auto;
 }
 
 .text-center{
@@ -215,4 +218,8 @@ footer{
   color: rgba(255, 255, 255, 0.579);
   font-size: 10px;
   padding: 10px
+}
+
+.destacado{
+  color: red;
 }
